@@ -1,7 +1,7 @@
 class Livro {
        public  titulo: string;
         public autor: string;
-        public editora: string;
+        public editora: string;  
         public anoPublicacao: number;
         public disponivel: boolean;   
 
@@ -12,7 +12,6 @@ class Livro {
             } else {
                 console.log(`O livro "${this.titulo}" não está disponível para empréstimo.`);
             }
-
         }
 
         devolver(): void {
@@ -27,7 +26,6 @@ class Livro {
             this.anoPublicacao = anoPublicacao;
             this.disponivel = true;
         }
-
 }
 
 class Membro {
